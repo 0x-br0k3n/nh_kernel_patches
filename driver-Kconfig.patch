@@ -1,0 +1,13 @@
+diff --git a/drivers/staging/Kconfig b/drivers/staging/Kconfig
+index e03627a..88df854 100644
+--- a/drivers/staging/Kconfig
++++ b/drivers/staging/Kconfig
+@@ -38,6 +38,8 @@ source "drivers/staging/rtl8712/Kconfig"
+ 
+ source "drivers/staging/r8188eu/Kconfig"
+ 
++source "drivers/staging/rtl8812au/Kconfig"
++
+ source "drivers/staging/rts5208/Kconfig"
+ 
+ source "drivers/staging/octeon/Kconfig"
