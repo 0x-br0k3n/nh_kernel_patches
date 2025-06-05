@@ -1,0 +1,20 @@
+diff --git a/drivers/staging/Kconfig b/drivers/staging/Kconfig
+index 88df854..ed7db31 100644
+--- a/drivers/staging/Kconfig
++++ b/drivers/staging/Kconfig
+@@ -104,4 +104,6 @@ source "drivers/staging/qlge/Kconfig"
+ 
+ source "drivers/staging/wfx/Kconfig"
+ 
++source "drivers/staging/qcacld-3.0/Kconfig"
++
+ endif # STAGING
+diff --git a/drivers/staging/Makefile b/drivers/staging/Makefile
+index 7f0d508..1f0678e 100644
+--- a/drivers/staging/Makefile
++++ b/drivers/staging/Makefile
+@@ -42,3 +42,4 @@ obj-$(CONFIG_XIL_AXIS_FIFO)	+= axis-fifo/
+ obj-$(CONFIG_FIELDBUS_DEV)     += fieldbus/
+ obj-$(CONFIG_QLGE)		+= qlge/
+ obj-$(CONFIG_WFX)		+= wfx/
++obj-$(CONFIG_QCA_CLD_WLAN) += qcacld-3.0/
